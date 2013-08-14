@@ -80,7 +80,7 @@ def import_calendars(user_dir, username, zadmin, zadmin_password):
     
     # Open the new calendarfile and adding the information about this script to it
     newcal = Calendar()
-    newcal.add('prodid', '-//opensaucesystems.com//')
+    newcal.add('prodid', '-//py_zarafa_pst_importer//')
     newcal.add('version', '2.0')
     newcal.add('x-wr-calname', 'Default')
     if DEBUG:
