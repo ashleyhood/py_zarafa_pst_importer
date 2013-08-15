@@ -12,12 +12,13 @@ Requires
 
 Python Modules:
 
-    Requests
-    icalendar
+    pip install requests
+    pip install icalendar
+    pip install vobject
 
 Other:
 
-    readpst
+    apt-get install readpst
 
 Setup
 -----
